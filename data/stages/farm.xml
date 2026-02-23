@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="backgrounds/farm/" name="farm" zoom="0.8">
+	<sprite x="-600" scroll="0.3" y="-200" sprite="sky" type="none" name="bg"/>
+	<sprite x="350" scroll="0.55" sprite="gm_flatgrass" y="55" type="none" scale="0.34" name="flatgrass"/>
+	<sprite x="-473" scroll="0.65" sprite="orangey hills" y="100" type="none" name="hills"/>
+	<sprite x="100" scroll="0.7" sprite="funfarmhouse" y="125" type="none" scale="0.9" name="farmHouse"/>
+	<sprite x="-600" sprite="grass lands" y="500" type="none" name="grassLand"/>
+	<sprite x="-700" sprite="cornFence" y="200" type="none" name="cornFence"/>
+	<sprite x="1100" sprite="cornFence2" y="250" type="none" name="cornFence2"/>
+	<sprite x="1200" sprite="cornbag" y="550" type="none" name="cornBag"/>
+	<sprite type="none" sprite="sign" y="350" name="sign"/>
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+</stage>

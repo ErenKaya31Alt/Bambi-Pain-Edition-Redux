@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-character>
+<character x="37" y="400" sprite="bambiRemake" icon="bambi" color="#25BF37">
+	<anim name="idle" anim="bambi idle"/>
+	<anim name="singDOWN-miss" anim="miss down" x="27" y="2"/>
+	<anim name="singRIGHT-miss" anim="miss right" x="6" y="16"/>
+	<anim name="singLEFT-miss" anim="miss left" x="66" y="19"/>
+	<anim name="singUP-miss" anim="miss up" x="66" y="34"/>
+	<anim name="singUP" anim="bambi up" x="55" y="36"/>
+	<anim name="singDOWN" anim="bambi down" x="22" y="-28"/>
+	<anim name="singLEFT" anim="bambi left" x="70" y="6"/>
+	<anim name="hey" anim="bambi look" x="2" y="8"/>
+	<anim name="singSmash" anim="bambi phone" x="98" y="81"/>
+	<anim name="singRIGHT" anim="bambi right" x="-16" y="8"/>
+	<anim name="singThrow" anim="bambi throw" x="37" y="23"/>
+	<anim name="singLEFT-alt" anim="bambi alt left" x="24" y="4"/>
+	<anim name="singRIGHT-alt" anim="bambi alt right" x="20" y="10"/>
+</character>

@@ -1,0 +1,15 @@
+{
+	"color": "#9271FD",
+	"customValues": {},
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "bambi",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Blocked",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 188
+}
