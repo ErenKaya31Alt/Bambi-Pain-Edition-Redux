@@ -7,6 +7,7 @@ import SubtitleManager;
 public var camNotes:HudCamera = new HudCamera();
 public var blockedGlitchEffect:CustomShader = new CustomShader("BlockedGlitchEffect");
 public var elapsedtime:Float = 0.00;
+public var isOldVariant:Bool;
 
 var timeBarBG:FunkinSprite = new FunkinSprite(0, 0, Paths.image("game/timeBar"));
 var timeBar:FlxBar;
@@ -22,6 +23,8 @@ function postCreate()
     FlxG.cameras.insert(camNotes, 1, false).bgColor = FlxColor.TRANSPARENT;
     camNotes.downscroll = Options.downscroll;
     strumLines.members[0].camera = strumLines.members[1].camera = camNotes;
+
+    isOldVariant = checkForVariant();
 
     var yPos = Options.downscroll ? FlxG.height * 0.9 + 20 : strumLine.y - 20;
 
@@ -125,4 +128,14 @@ public function makeInvisibleNotes(invisible:Bool)
 		FlxTween.cancelTweensOf(camNotes);
 		FlxTween.tween(camNotes, {alpha: 1}, 1);
 	}
+}
+
+public function checkForVariant()
+{
+    if (PlayState.variation.toLowerCase() == 'old')
+    {
+        return true;
+    } else {
+        return false;
+    }
 }

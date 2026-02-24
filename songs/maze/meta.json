@@ -8,11 +8,11 @@
 	"icon": "bambi",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
-	"displayName": "Blocked",
+	"displayName": "Maze",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
 	"variants": [
 		"Old"
 	],
-	"bpm": 188
+	"bpm": 113
 }
