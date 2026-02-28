@@ -1,19 +1,16 @@
 {
-	"color": "#9271FD",
-	"customValues": {},
 	"opponentModeAllowed": false,
+	"icon": "bambi",
 	"difficulties": [
 		"normal"
 	],
-	"icon": "bambi",
+	"color": "#9271FD",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "Blocked",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"variants": [
-		"Old",
-		"Babble"
-	],
-	"bpm": 188
+	"bpm": 188,
+	"instSuffix": "-Babble",
+	"vocalsSuffix": "-Babble"
 }

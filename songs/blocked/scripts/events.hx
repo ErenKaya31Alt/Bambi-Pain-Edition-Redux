@@ -65,5 +65,19 @@ function stepHit(curStep)
 				remove(black);
 				defaultCamZoom -= 0.3;
 		}
+	} else {
+		switch (curStep)
+		{
+			case 92 | 220 | 650 | 988 | 1116:
+				camHUD.addShader(blockedGlitchEffect);
+				camNotes.addShader(blockedGlitchEffect);
+			case 96 | 224 | 656 | 992 | 1120:
+				camHUD.removeShader(blockedGlitchEffect);
+				camNotes.removeShader(blockedGlitchEffect);
+			case 512:
+				defaultCamZoom += 0.2;
+			case 884:
+				defaultCamZoom -= 0.2;
+		}
 	}
 }

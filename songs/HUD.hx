@@ -40,7 +40,7 @@ function postCreate()
     newScoreTxt.text = SubtitleManager.getTextString('play_score') + Std.string(songScore) + " | " + SubtitleManager.getTextString('play_miss') + misses +  " | " + SubtitleManager.getTextString('play_accuracy') + "0%";
 
     add(songNameTxt).camera = camHUD;
-    songNameTxt.text = SONG.meta.displayName;
+    songNameTxt.text = (isOldVariant ? SONG.meta.displayName + " (Old)" : SONG.meta.displayName);
     songNameTxt.font = Paths.font("comic.ttf");
     songNameTxt.borderSize = 1.25;
     songNameTxt.y = FlxG.height - songNameTxt.height;

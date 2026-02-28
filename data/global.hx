@@ -1,6 +1,9 @@
 import funkin.backend.system.framerate.Framerate;
+import funkin.backend.system.framerate.FramerateCounter;
 import openfl.text.TextFormat;
 import lime.graphics.Image;
+
+public var funny:FlxSprite = new FlxSprite(0, 0, Paths.image("game/lowfpsbozo"));
 
 function postStateSwitch()
 {
